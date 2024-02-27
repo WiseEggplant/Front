@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#topback{
+    position: static;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    border: 5px solid red;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#bottomback{
+    height: 200px;
+    width: 100%;
+    background-color: black; 
+    margin-top: 671px; 
+    border: 5px solid red;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#lefttext{
+    color: rgb(230, 120, 120);
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+ul li{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    top: 70px;
+    padding: 10px;
+    margin-right: 20px;
+}
+#topline > li:hover{
+    color: red;
+}
+#search{
+    width: 15%;
+    height: 40px;
+    position: relative;
+    left: 1670px;
+    bottom: 30px;
+}
+#bottomtext{
+    color: white;
+    position: absolute;
+    left: 900px;
+    font-size: 40px;
+}
+#bottomline > #blue{
+    background-color: blue;
+    border-radius: 10px;
+}
+#bottomline > #red{
+    background-color: red;
+    border-radius: 10px;
+}
+#bottomline > #sea{
+    background-color: rgb(121, 121, 236);
+    border-radius: 10px;
+}
+#bottomline > #purpule{
+    background-color: rgb(240, 114, 238);
+    border-radius: 10px;
+}
+#maintext{ 
+    background-image: url("../img/1666361425_1-mykaleidoscope-ru-p-peizazhi-prirodi-krasivo-1.jpg");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: top 100% right 100%;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    border: 2px solid silver;
+    width: 40%;
+    height: 40%;
+    margin-top: 120px;
+    margin-left: 70px;
+}
+#secondtext{
+    width: 20%;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    border: 2px solid silver;
+    margin-left: 1000px;
+    margin-top: 120px;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+p{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+span{
+    background-color: yellow;
+}
