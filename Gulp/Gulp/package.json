@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-postcss": "^10.0.0"
+  },
+  "name": "gulpdz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gulp-connect": "^5.7.0"
+  }
+}
